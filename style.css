@@ -1,0 +1,24 @@
+.row {
+    width: 1000px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+.col, .col-2, .col-3{
+    background-color: gray;
+    color: white;
+    height: 50px;
+    margin: 20px;
+}
+.col{
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
